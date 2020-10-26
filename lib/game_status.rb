@@ -22,7 +22,7 @@ def won?(board)
       return win_combination
     
     end
-    
+    puts win_combination
   end
   
   return false
