@@ -19,10 +19,10 @@ def won?(board)
     position_3 = board[win_index_3]
     
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
-      puts win_combination
       return win_combination
       
     else 
+      puts "calls else"
       false
     end
   end
