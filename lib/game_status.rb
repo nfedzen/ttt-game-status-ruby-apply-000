@@ -22,8 +22,7 @@ def won?(board)
       return win_combination
       
     else 
-      puts "calls else"
-      false
+      return false
     end
   end
 end
